@@ -17,7 +17,7 @@
 
 ## General Information
 - Program is checking actual rate of USD, CHF and GBP currencies from NBP API, adding rate to previous history and calculating average rate.
-Final result is stored in CSV format and sent in the attachment by e-mail. Shipment of e-mail is locked by password.
+Final result is stored in CSV format and sent in the attachment by e-mail. Shipment of e-mail is secured by password.
 - Main goal was to learn and practice how to write code to send attachments in e-mail secured by password.
 
 
