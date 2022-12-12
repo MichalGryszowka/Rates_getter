@@ -16,65 +16,44 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Program is checking actual rate of USD, CHF and GBP currencies from NBP API, adding rate to previous history and calculating average rate.
+Final result is stored in CSV format and sent in the attachment by e-mail. Shipment of e-mail is locked by password.
+- Main goal was to learn and practice how to write code to send attachments by emial with password protection.
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Python - version 3.10.2
+- Google Gmail
+- Pycharm
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+- Requesting from NBP API
+- Creating CSV file
+- Sending attachment in e-mail secured by password
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+ - Google account of e-mail recipient has to be configured to get password for e-mail shipment.
+ 
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Complete - it was just quick training for personal purpose.
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+Based on the code it would be nice to create program for automatic sending daily currency rate for whole list of email recipients in form of newsletter.
 
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
+- Filled in passowrd can be in hidden mode (only stars visible) for safety purpose.
 
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- This project was inspired by my mentor Marcin. Many thanks goes to him for help.
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=cLjOl_GQZIc&ab_channel=WOWSCHOOL-programowanieiedukacja).
 
 
 ## Contact
