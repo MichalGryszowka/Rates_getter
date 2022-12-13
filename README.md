@@ -45,8 +45,8 @@ Complete - it was just quick training for personal purpose.
 
 
 ## Acknowledgements
-- Thanks to Marcin for inspiring me to do this task.
-- E-mail configuration was based on (https://www.youtube.com/watch?v=cLjOl_GQZIc&ab_channel=WOWSCHOOL-programowanieiedukacja).
+- Thanks to my mentor for inspiring me to do this task.
+- E-mail onfiguration code is based on following tutorial: (https://www.youtube.com/watch?v=cLjOl_GQZIc&ab_channel=WOWSCHOOL-programowanieiedukacja).
 
 
 ## Contact
